@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5E90FA3E2513AC90005C5E46 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E90FA3D2513AC90005C5E46 /* main.cpp */; };
-		5EAC66F9250E275900936CF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC66F8250E275900936CF4 /* main.cpp */; };
 		5EAC6708250E283000936CF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC6707250E283000936CF4 /* main.cpp */; };
 		5EAC6714250E28FD00936CF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC6713250E28FD00936CF4 /* main.cpp */; };
 		5EAC6720250E299F00936CF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC671F250E299F00936CF4 /* main.cpp */; };
@@ -28,15 +27,6 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		5E90FA392513AC90005C5E46 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		5EAC66F3250E275900936CF4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -186,8 +176,6 @@
 		5E90FA3B2513AC90005C5E46 /* 11364 - Parking */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11364 - Parking"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E90FA3D2513AC90005C5E46 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5E90FA432513ACF2005C5E46 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
-		5EAC66F5250E275900936CF4 /* UVa */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UVa; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EAC66F8250E275900936CF4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5EAC6705250E283000936CF4 /* 272 - TEX Quotes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "272 - TEX Quotes"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAC6707250E283000936CF4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5EAC670C250E286800936CF4 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
@@ -239,13 +227,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		5E90FA382513AC90005C5E46 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5EAC66F2250E275900936CF4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -373,7 +354,6 @@
 			isa = PBXGroup;
 			children = (
 				5EAC66FF250E276D00936CF4 /* Introduction */,
-				5EAC66F7250E275900936CF4 /* UVa */,
 				5EAC66F6250E275900936CF4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -381,7 +361,6 @@
 		5EAC66F6250E275900936CF4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5EAC66F5250E275900936CF4 /* UVa */,
 				5EAC6705250E283000936CF4 /* 272 - TEX Quotes */,
 				5EAC6711250E28FD00936CF4 /* 1124 - Celebrity jeopardy */,
 				5EAC671D250E299F00936CF4 /* IORoutine */,
@@ -400,14 +379,6 @@
 				5EEA91732517079500922DD0 /* 12577 - Hajj-e-Akbar */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		5EAC66F7250E275900936CF4 /* UVa */ = {
-			isa = PBXGroup;
-			children = (
-				5EAC66F8250E275900936CF4 /* main.cpp */,
-			);
-			path = UVa;
 			sourceTree = "<group>";
 		};
 		5EAC66FF250E276D00936CF4 /* Introduction */ = {
@@ -604,23 +575,6 @@
 			name = "11364 - Parking";
 			productName = "11364 - Parking";
 			productReference = 5E90FA3B2513AC90005C5E46 /* 11364 - Parking */;
-			productType = "com.apple.product-type.tool";
-		};
-		5EAC66F4250E275900936CF4 /* UVa */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5EAC66FC250E275900936CF4 /* Build configuration list for PBXNativeTarget "UVa" */;
-			buildPhases = (
-				5EAC66F1250E275900936CF4 /* Sources */,
-				5EAC66F2250E275900936CF4 /* Frameworks */,
-				5EAC66F3250E275900936CF4 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = UVa;
-			productName = UVa;
-			productReference = 5EAC66F5250E275900936CF4 /* UVa */;
 			productType = "com.apple.product-type.tool";
 		};
 		5EAC6704250E283000936CF4 /* 272 - TEX Quotes */ = {
@@ -890,9 +844,6 @@
 					5E90FA3A2513AC90005C5E46 = {
 						CreatedOnToolsVersion = 11.7;
 					};
-					5EAC66F4250E275900936CF4 = {
-						CreatedOnToolsVersion = 11.7;
-					};
 					5EAC6704250E283000936CF4 = {
 						CreatedOnToolsVersion = 11.7;
 					};
@@ -953,7 +904,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5EAC66F4250E275900936CF4 /* UVa */,
 				5EAC6704250E283000936CF4 /* 272 - TEX Quotes */,
 				5EAC6710250E28FD00936CF4 /* 1124 - Celebrity jeopardy */,
 				5EAC671C250E299F00936CF4 /* IORoutine */,
@@ -980,14 +930,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E90FA3E2513AC90005C5E46 /* main.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5EAC66F1250E275900936CF4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5EAC66F9250E275900936CF4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1236,22 +1178,6 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		5EAC66FD250E275900936CF4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		5EAC66FE250E275900936CF4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -1530,15 +1456,6 @@
 			buildConfigurations = (
 				5EAC66FA250E275900936CF4 /* Debug */,
 				5EAC66FB250E275900936CF4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5EAC66FC250E275900936CF4 /* Build configuration list for PBXNativeTarget "UVa" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5EAC66FD250E275900936CF4 /* Debug */,
-				5EAC66FE250E275900936CF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
