@@ -12,7 +12,7 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // freopen("input.txt", "r", stdin);
+    freopen("input.txt", "r", stdin);
     
     char str[20];
     int tc = 1;

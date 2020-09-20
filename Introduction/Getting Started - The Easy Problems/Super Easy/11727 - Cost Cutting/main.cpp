@@ -9,7 +9,7 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    // freopen("input.txt", "r", stdin);
+    freopen("input.txt", "r", stdin);
     
     int T;
     scanf("%d", &T);

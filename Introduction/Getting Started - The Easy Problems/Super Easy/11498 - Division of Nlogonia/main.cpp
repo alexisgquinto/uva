@@ -11,7 +11,7 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // freopen("input.txt", "r", stdin);
+    freopen("input.txt", "r", stdin);
     
     int K;
     while((scanf("%d", &K)), (K != 0)) {

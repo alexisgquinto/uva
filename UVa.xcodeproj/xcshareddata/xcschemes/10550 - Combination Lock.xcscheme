@@ -36,7 +36,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/alexis/Desktop/UVa/Introduction/Getting Started - The Easy Problems/Super Easy/10550 - Combination Lock"
+      customWorkingDirectory = "/Users/alexis/Documents/Workspace/Academy/Algorithms/UVa/Introduction/Getting Started - The Easy Problems/Super Easy/10550 - Combination Lock"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"

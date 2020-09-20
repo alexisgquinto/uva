@@ -16,8 +16,10 @@ int main(int argc, const char * argv[]) {
     
     string strline;
     
+    int tc = 1;
     while(getline(cin, strline)) {
-        cout << strline << "\n";
+        if (tc++ != 1) cout << "\n";
+        cout << strline;
     }
     
     return 0;
