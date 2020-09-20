@@ -4,10 +4,178 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>UVa.xcscheme_^#shared#^_</key>
+		<key>10550 - Combination Lock.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>11044 - Searching for Nessy.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>11172 - Relational Operator.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>1124 - Celebrity jeopardy.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>11364 - Parking.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>11498 - Division of Nlogonia.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>11547 - Automatic Answer.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>11727 - Cost Cutting.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>12250 - Language Detection.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>12279 - Emoogle Balance.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>12289 - One-Two-Three.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>12372 - Packing for Holiday.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>12403 - Save Setu.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>12577 - Hajj-e-Akbar.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
+		<key>272 - TEX Quotes.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>IORoutine.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>UVa.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5E90FA3A2513AC90005C5E46</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5EAC6704250E283000936CF4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5EAC6710250E28FD00936CF4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5EAC671C250E299F00936CF4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5EAC672B250E8A1200936CF4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5EAC67372510F54E00936CF4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5EAC6743251103CD00936CF4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5EAC674F2513A3F900936CF4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5EEA8FE62514693600922DD0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5EEA900D2514BAB500922DD0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5EEA90372514C23400922DD0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5EEA90642515D1EB00922DD0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5EEA90942516688000922DD0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5EEA90C7251670F000922DD0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5EEA90FD2516FE7500922DD0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5EEA9136251701B800922DD0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5EEA91722517079500922DD0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
