@@ -12,22 +12,22 @@
 
 using namespace std;
 
-class Node {
+class DepValue {
 public:
     int month;
-    double percentage; //depreciation
+    double percentage;
 };
 
 int main(int argc, const char * argv[]) {
-    // freopen("input.txt", "r", stdin);
+    freopen("input.txt", "r", stdin);
     
     int months;
     double downPayment;
-    double carAmount; // car
+    double carAmount;
     int n;
     
     while((scanf("%d %lf %lf %d", &months, &downPayment, &carAmount, &n)), (months >= 0)) {
-        Node arr[MAX_MONTHS];
+        DepValue arr[MAX_MONTHS];
         int ctr = 0;
         int tmpN = n;
         while(tmpN--) {
@@ -43,7 +43,7 @@ int main(int argc, const char * argv[]) {
         for (int i = 0; i <= months; ++i) {
             if (i != 0 && ctr + 1 < n && i == arr[ctr + 1].month) ctr++;
             
-            Node x = arr[ctr];
+            DepValue x = arr[ctr];
             depreciatingCarAmount -= depreciatingCarAmount  * x.percentage;
             
             if (i != 0) totalOwed -= monthlyPayment;
