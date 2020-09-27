@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E7DBF4D2519A80500DFD790 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E7DBF4C2519A80500DFD790 /* main.cpp */; };
+		5E7DBF8E251B638000DFD790 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E7DBF8D251B638000DFD790 /* main.cpp */; };
 		5E90FA3E2513AC90005C5E46 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E90FA3D2513AC90005C5E46 /* main.cpp */; };
 		5EAC6708250E283000936CF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC6707250E283000936CF4 /* main.cpp */; };
 		5EAC6714250E28FD00936CF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC6713250E28FD00936CF4 /* main.cpp */; };
@@ -26,6 +28,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		5E7DBF482519A80500DFD790 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5E7DBF89251B638000DFD790 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		5E90FA392513AC90005C5E46 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -173,6 +193,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5E7DBF4A2519A80500DFD790 /* 621 - Secret Research */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "621 - Secret Research"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7DBF4C2519A80500DFD790 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5E7DBF752519A84400DFD790 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		5E7DBF8B251B638000DFD790 /* 10114 - Loansome Car Buyer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10114 - Loansome Car Buyer"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7DBF8D251B638000DFD790 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5E7DBFB6251B63B600DFD790 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		5E90FA3B2513AC90005C5E46 /* 11364 - Parking */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11364 - Parking"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E90FA3D2513AC90005C5E46 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5E90FA432513ACF2005C5E46 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
@@ -226,6 +252,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5E7DBF472519A80500DFD790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7DBF88251B638000DFD790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5E90FA382513AC90005C5E46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -341,6 +381,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E7DBF4B2519A80500DFD790 /* 621 - Secret Research */ = {
+			isa = PBXGroup;
+			children = (
+				5E7DBF4C2519A80500DFD790 /* main.cpp */,
+				5E7DBF752519A84400DFD790 /* input.txt */,
+			);
+			path = "621 - Secret Research";
+			sourceTree = "<group>";
+		};
+		5E7DBF632519A81B00DFD790 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				5E7DBF4B2519A80500DFD790 /* 621 - Secret Research */,
+				5E7DBF8C251B638000DFD790 /* 10114 - Loansome Car Buyer */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		5E7DBF8C251B638000DFD790 /* 10114 - Loansome Car Buyer */ = {
+			isa = PBXGroup;
+			children = (
+				5E7DBF8D251B638000DFD790 /* main.cpp */,
+				5E7DBFB6251B63B600DFD790 /* input.txt */,
+			);
+			path = "10114 - Loansome Car Buyer";
+			sourceTree = "<group>";
+		};
 		5E90FA3C2513AC90005C5E46 /* 11364 - Parking */ = {
 			isa = PBXGroup;
 			children = (
@@ -377,6 +444,8 @@
 				5EEA90FE2516FE7500922DD0 /* 12372 - Packing for Holiday */,
 				5EEA9137251701B800922DD0 /* 12403 - Save Setu */,
 				5EEA91732517079500922DD0 /* 12577 - Hajj-e-Akbar */,
+				5E7DBF4A2519A80500DFD790 /* 621 - Secret Research */,
+				5E7DBF8B251B638000DFD790 /* 10114 - Loansome Car Buyer */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -393,6 +462,7 @@
 		5EAC6700250E278D00936CF4 /* Getting Started - The Easy Problems */ = {
 			isa = PBXGroup;
 			children = (
+				5E7DBF632519A81B00DFD790 /* Easy */,
 				5EAC6727250E89FB00936CF4 /* Super Easy */,
 			);
 			path = "Getting Started - The Easy Problems";
@@ -560,6 +630,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5E7DBF492519A80500DFD790 /* 621 - Secret Research */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E7DBF502519A80500DFD790 /* Build configuration list for PBXNativeTarget "621 - Secret Research" */;
+			buildPhases = (
+				5E7DBF462519A80500DFD790 /* Sources */,
+				5E7DBF472519A80500DFD790 /* Frameworks */,
+				5E7DBF482519A80500DFD790 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "621 - Secret Research";
+			productName = "621 - Secret Research";
+			productReference = 5E7DBF4A2519A80500DFD790 /* 621 - Secret Research */;
+			productType = "com.apple.product-type.tool";
+		};
+		5E7DBF8A251B638000DFD790 /* 10114 - Loansome Car Buyer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E7DBF8F251B638000DFD790 /* Build configuration list for PBXNativeTarget "10114 - Loansome Car Buyer" */;
+			buildPhases = (
+				5E7DBF87251B638000DFD790 /* Sources */,
+				5E7DBF88251B638000DFD790 /* Frameworks */,
+				5E7DBF89251B638000DFD790 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "10114 - Loansome Car Buyer";
+			productName = "10114 - Loansome Car Buyer";
+			productReference = 5E7DBF8B251B638000DFD790 /* 10114 - Loansome Car Buyer */;
+			productType = "com.apple.product-type.tool";
+		};
 		5E90FA3A2513AC90005C5E46 /* 11364 - Parking */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E90FA3F2513AC90005C5E46 /* Build configuration list for PBXNativeTarget "11364 - Parking" */;
@@ -841,6 +945,12 @@
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = "Alexis Quinto";
 				TargetAttributes = {
+					5E7DBF492519A80500DFD790 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					5E7DBF8A251B638000DFD790 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					5E90FA3A2513AC90005C5E46 = {
 						CreatedOnToolsVersion = 11.7;
 					};
@@ -920,11 +1030,29 @@
 				5EEA90FD2516FE7500922DD0 /* 12372 - Packing for Holiday */,
 				5EEA9136251701B800922DD0 /* 12403 - Save Setu */,
 				5EEA91722517079500922DD0 /* 12577 - Hajj-e-Akbar */,
+				5E7DBF492519A80500DFD790 /* 621 - Secret Research */,
+				5E7DBF8A251B638000DFD790 /* 10114 - Loansome Car Buyer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5E7DBF462519A80500DFD790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7DBF4D2519A80500DFD790 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7DBF87251B638000DFD790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7DBF8E251B638000DFD790 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5E90FA372513AC90005C5E46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1056,6 +1184,42 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		5E7DBF4E2519A80500DFD790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E7DBF4F2519A80500DFD790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E7DBF90251B638000DFD790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E7DBF91251B638000DFD790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		5E90FA402513AC90005C5E46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1442,6 +1606,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5E7DBF502519A80500DFD790 /* Build configuration list for PBXNativeTarget "621 - Secret Research" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E7DBF4E2519A80500DFD790 /* Debug */,
+				5E7DBF4F2519A80500DFD790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E7DBF8F251B638000DFD790 /* Build configuration list for PBXNativeTarget "10114 - Loansome Car Buyer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E7DBF90251B638000DFD790 /* Debug */,
+				5E7DBF91251B638000DFD790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5E90FA3F2513AC90005C5E46 /* Build configuration list for PBXNativeTarget "11364 - Parking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
