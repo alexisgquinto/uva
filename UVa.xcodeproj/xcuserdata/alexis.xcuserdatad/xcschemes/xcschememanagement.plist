@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
+		<key>10300 - Ecological Premium.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
 		<key>10550 - Combination Lock.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -148,6 +153,11 @@
 			<true/>
 		</dict>
 		<key>5EAC674F2513A3F900936CF4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5ECD15EA2520C9CF0012276C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
