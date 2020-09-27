@@ -121,6 +121,6 @@ void run8() {
 
 int main(int argc, const char * argv[]) {
     printf("Hello, World!\n");
-    run5();
+    run6();
     return 0;
 }
