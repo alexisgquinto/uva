@@ -39,6 +39,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>11332 - Summing Digits.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
 		<key>11364 - Parking.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -168,6 +173,11 @@
 			<true/>
 		</dict>
 		<key>5ECD162F2520D8BA0012276C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5ECD16772521BFB30012276C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
