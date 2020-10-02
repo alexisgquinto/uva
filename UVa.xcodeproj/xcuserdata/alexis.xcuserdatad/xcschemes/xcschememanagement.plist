@@ -64,6 +64,11 @@
 			<key>orderHint</key>
 			<integer>21</integer>
 		</dict>
+		<key>11679 - Sub-prime.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
 		<key>11727 - Cost Cutting.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -188,6 +193,11 @@
 			<true/>
 		</dict>
 		<key>5ECD16C22522633C0012276C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5ECD1710252792AC0012276C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -20,6 +20,7 @@
 		5ECD16332520D8BA0012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD16322520D8BA0012276C /* main.cpp */; };
 		5ECD167B2521BFB40012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD167A2521BFB40012276C /* main.cpp */; };
 		5ECD16C62522633C0012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD16C52522633C0012276C /* main.cpp */; };
+		5ECD1714252792AC0012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD1713252792AC0012276C /* main.cpp */; };
 		5EEA8FEA2514693600922DD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA8FE92514693600922DD0 /* main.cpp */; };
 		5EEA90112514BAB500922DD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA90102514BAB500922DD0 /* main.cpp */; };
 		5EEA903B2514C23400922DD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA903A2514C23400922DD0 /* main.cpp */; };
@@ -141,6 +142,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		5ECD16C12522633C0012276C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5ECD170F252792AC0012276C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -274,6 +284,9 @@
 		5ECD16C32522633C0012276C /* 11559 - Event Planning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11559 - Event Planning"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ECD16C52522633C0012276C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5ECD16F62522636B0012276C /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		5ECD1711252792AC0012276C /* 11679 - Sub-prime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11679 - Sub-prime"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECD1713252792AC0012276C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5ECD1746252793060012276C /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		5EEA8FE72514693600922DD0 /* 11498 - Division of Nlogonia */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11498 - Division of Nlogonia"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EEA8FE92514693600922DD0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5EEA90002514696F00922DD0 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
@@ -395,6 +408,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5ECD170E252792AC0012276C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5EEA8FE42514693600922DD0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -479,6 +499,7 @@
 				5ECD16312520D8BA0012276C /* 10963 - The Swallowing Ground */,
 				5ECD16792521BFB40012276C /* 11332 - Summing Digits */,
 				5ECD16C42522633C0012276C /* 11559 - Event Planning */,
+				5ECD1712252792AC0012276C /* 11679 - Sub-prime */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -534,6 +555,7 @@
 				5ECD16302520D8BA0012276C /* 10963 - The Swallowing Ground */,
 				5ECD16782521BFB40012276C /* 11332 - Summing Digits */,
 				5ECD16C32522633C0012276C /* 11559 - Event Planning */,
+				5ECD1711252792AC0012276C /* 11679 - Sub-prime */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -668,6 +690,15 @@
 				5ECD16F62522636B0012276C /* input.txt */,
 			);
 			path = "11559 - Event Planning";
+			sourceTree = "<group>";
+		};
+		5ECD1712252792AC0012276C /* 11679 - Sub-prime */ = {
+			isa = PBXGroup;
+			children = (
+				5ECD1713252792AC0012276C /* main.cpp */,
+				5ECD1746252793060012276C /* input.txt */,
+			);
+			path = "11679 - Sub-prime";
 			sourceTree = "<group>";
 		};
 		5EEA8FE82514693600922DD0 /* 11498 - Division of Nlogonia */ = {
@@ -975,6 +1006,23 @@
 			productReference = 5ECD16C32522633C0012276C /* 11559 - Event Planning */;
 			productType = "com.apple.product-type.tool";
 		};
+		5ECD1710252792AC0012276C /* 11679 - Sub-prime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ECD1715252792AD0012276C /* Build configuration list for PBXNativeTarget "11679 - Sub-prime" */;
+			buildPhases = (
+				5ECD170D252792AC0012276C /* Sources */,
+				5ECD170E252792AC0012276C /* Frameworks */,
+				5ECD170F252792AC0012276C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "11679 - Sub-prime";
+			productName = "11679 - Sub-prime";
+			productReference = 5ECD1711252792AC0012276C /* 11679 - Sub-prime */;
+			productType = "com.apple.product-type.tool";
+		};
 		5EEA8FE62514693600922DD0 /* 11498 - Division of Nlogonia */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EEA8FED2514693600922DD0 /* Build configuration list for PBXNativeTarget "11498 - Division of Nlogonia" */;
@@ -1176,6 +1224,9 @@
 					5ECD16C22522633C0012276C = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
+					5ECD1710252792AC0012276C = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 					5EEA8FE62514693600922DD0 = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -1240,6 +1291,7 @@
 				5ECD162F2520D8BA0012276C /* 10963 - The Swallowing Ground */,
 				5ECD16772521BFB30012276C /* 11332 - Summing Digits */,
 				5ECD16C22522633C0012276C /* 11559 - Event Planning */,
+				5ECD1710252792AC0012276C /* 11679 - Sub-prime */,
 			);
 		};
 /* End PBXProject section */
@@ -1346,6 +1398,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ECD16C62522633C0012276C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECD170D252792AC0012276C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECD1714252792AC0012276C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1753,6 +1813,24 @@
 			};
 			name = Release;
 		};
+		5ECD1716252792AD0012276C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5ECD1717252792AD0012276C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		5EEA8FEB2514693600922DD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2040,6 +2118,15 @@
 			buildConfigurations = (
 				5ECD16C82522633C0012276C /* Debug */,
 				5ECD16C92522633C0012276C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ECD1715252792AD0012276C /* Build configuration list for PBXNativeTarget "11679 - Sub-prime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECD1716252792AD0012276C /* Debug */,
+				5ECD1717252792AD0012276C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
