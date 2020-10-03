@@ -21,6 +21,7 @@
 		5ECD167B2521BFB40012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD167A2521BFB40012276C /* main.cpp */; };
 		5ECD16C62522633C0012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD16C52522633C0012276C /* main.cpp */; };
 		5ECD1714252792AC0012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD1713252792AC0012276C /* main.cpp */; };
+		5ECD176525280AD50012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD176425280AD50012276C /* main.cpp */; };
 		5EEA8FEA2514693600922DD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA8FE92514693600922DD0 /* main.cpp */; };
 		5EEA90112514BAB500922DD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA90102514BAB500922DD0 /* main.cpp */; };
 		5EEA903B2514C23400922DD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA903A2514C23400922DD0 /* main.cpp */; };
@@ -159,6 +160,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		5ECD176025280AD50012276C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		5EEA8FE52514693600922DD0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -287,6 +297,9 @@
 		5ECD1711252792AC0012276C /* 11679 - Sub-prime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11679 - Sub-prime"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ECD1713252792AC0012276C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5ECD1746252793060012276C /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		5ECD176225280AD50012276C /* 11764 - Jumping Mario */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11764 - Jumping Mario"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECD176425280AD50012276C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5ECD179925280AFD0012276C /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		5EEA8FE72514693600922DD0 /* 11498 - Division of Nlogonia */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11498 - Division of Nlogonia"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EEA8FE92514693600922DD0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5EEA90002514696F00922DD0 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
@@ -415,6 +428,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5ECD175F25280AD50012276C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5EEA8FE42514693600922DD0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -500,6 +520,7 @@
 				5ECD16792521BFB40012276C /* 11332 - Summing Digits */,
 				5ECD16C42522633C0012276C /* 11559 - Event Planning */,
 				5ECD1712252792AC0012276C /* 11679 - Sub-prime */,
+				5ECD176325280AD50012276C /* 11764 - Jumping Mario */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -556,6 +577,7 @@
 				5ECD16782521BFB40012276C /* 11332 - Summing Digits */,
 				5ECD16C32522633C0012276C /* 11559 - Event Planning */,
 				5ECD1711252792AC0012276C /* 11679 - Sub-prime */,
+				5ECD176225280AD50012276C /* 11764 - Jumping Mario */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -699,6 +721,15 @@
 				5ECD1746252793060012276C /* input.txt */,
 			);
 			path = "11679 - Sub-prime";
+			sourceTree = "<group>";
+		};
+		5ECD176325280AD50012276C /* 11764 - Jumping Mario */ = {
+			isa = PBXGroup;
+			children = (
+				5ECD176425280AD50012276C /* main.cpp */,
+				5ECD179925280AFD0012276C /* input.txt */,
+			);
+			path = "11764 - Jumping Mario";
 			sourceTree = "<group>";
 		};
 		5EEA8FE82514693600922DD0 /* 11498 - Division of Nlogonia */ = {
@@ -1023,6 +1054,23 @@
 			productReference = 5ECD1711252792AC0012276C /* 11679 - Sub-prime */;
 			productType = "com.apple.product-type.tool";
 		};
+		5ECD176125280AD50012276C /* 11764 - Jumping Mario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ECD176625280AD50012276C /* Build configuration list for PBXNativeTarget "11764 - Jumping Mario" */;
+			buildPhases = (
+				5ECD175E25280AD50012276C /* Sources */,
+				5ECD175F25280AD50012276C /* Frameworks */,
+				5ECD176025280AD50012276C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "11764 - Jumping Mario";
+			productName = "11764 - Jumping Mario";
+			productReference = 5ECD176225280AD50012276C /* 11764 - Jumping Mario */;
+			productType = "com.apple.product-type.tool";
+		};
 		5EEA8FE62514693600922DD0 /* 11498 - Division of Nlogonia */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EEA8FED2514693600922DD0 /* Build configuration list for PBXNativeTarget "11498 - Division of Nlogonia" */;
@@ -1227,6 +1275,9 @@
 					5ECD1710252792AC0012276C = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
+					5ECD176125280AD50012276C = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 					5EEA8FE62514693600922DD0 = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -1292,6 +1343,7 @@
 				5ECD16772521BFB30012276C /* 11332 - Summing Digits */,
 				5ECD16C22522633C0012276C /* 11559 - Event Planning */,
 				5ECD1710252792AC0012276C /* 11679 - Sub-prime */,
+				5ECD176125280AD50012276C /* 11764 - Jumping Mario */,
 			);
 		};
 /* End PBXProject section */
@@ -1406,6 +1458,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ECD1714252792AC0012276C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECD175E25280AD50012276C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECD176525280AD50012276C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1831,6 +1891,24 @@
 			};
 			name = Release;
 		};
+		5ECD176725280AD50012276C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5ECD176825280AD50012276C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		5EEA8FEB2514693600922DD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2127,6 +2205,15 @@
 			buildConfigurations = (
 				5ECD1716252792AD0012276C /* Debug */,
 				5ECD1717252792AD0012276C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ECD176625280AD50012276C /* Build configuration list for PBXNativeTarget "11764 - Jumping Mario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECD176725280AD50012276C /* Debug */,
+				5ECD176825280AD50012276C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
