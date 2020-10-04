@@ -22,6 +22,9 @@
 		5ECD16C62522633C0012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD16C52522633C0012276C /* main.cpp */; };
 		5ECD1714252792AC0012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD1713252792AC0012276C /* main.cpp */; };
 		5ECD176525280AD50012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD176425280AD50012276C /* main.cpp */; };
+		5ECD17B925285FD40012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD17B825285FD40012276C /* main.cpp */; };
+		5ECD18102528B8CE0012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD180F2528B8CE0012276C /* main.cpp */; };
+		5ECD186A252965180012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD1869252965180012276C /* main.cpp */; };
 		5EEA8FEA2514693600922DD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA8FE92514693600922DD0 /* main.cpp */; };
 		5EEA90112514BAB500922DD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA90102514BAB500922DD0 /* main.cpp */; };
 		5EEA903B2514C23400922DD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA903A2514C23400922DD0 /* main.cpp */; };
@@ -169,6 +172,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		5ECD17B425285FD40012276C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5ECD180B2528B8CE0012276C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5ECD1865252965180012276C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		5EEA8FE52514693600922DD0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -300,6 +330,15 @@
 		5ECD176225280AD50012276C /* 11764 - Jumping Mario */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11764 - Jumping Mario"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ECD176425280AD50012276C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5ECD179925280AFD0012276C /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		5ECD17B625285FD40012276C /* 11799 - Horror Dash */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11799 - Horror Dash"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECD17B825285FD40012276C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5ECD17EF2528600B0012276C /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		5ECD180D2528B8CE0012276C /* 11942 - Lumberjack Sequencing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11942 - Lumberjack Sequencing"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECD180F2528B8CE0012276C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5ECD18482528B93B0012276C /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		5ECD1867252965180012276C /* 12015 - Google is Feeling Lucky */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12015 - Google is Feeling Lucky"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECD1869252965180012276C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5ECD18A42529654A0012276C /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		5EEA8FE72514693600922DD0 /* 11498 - Division of Nlogonia */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11498 - Division of Nlogonia"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EEA8FE92514693600922DD0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5EEA90002514696F00922DD0 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
@@ -435,6 +474,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5ECD17B325285FD40012276C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECD180A2528B8CE0012276C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECD1864252965180012276C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5EEA8FE42514693600922DD0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -521,6 +581,9 @@
 				5ECD16C42522633C0012276C /* 11559 - Event Planning */,
 				5ECD1712252792AC0012276C /* 11679 - Sub-prime */,
 				5ECD176325280AD50012276C /* 11764 - Jumping Mario */,
+				5ECD17B725285FD40012276C /* 11799 - Horror Dash */,
+				5ECD180E2528B8CE0012276C /* 11942 - Lumberjack Sequencing */,
+				5ECD1868252965180012276C /* 12015 - Google is Feeling Lucky */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -578,6 +641,9 @@
 				5ECD16C32522633C0012276C /* 11559 - Event Planning */,
 				5ECD1711252792AC0012276C /* 11679 - Sub-prime */,
 				5ECD176225280AD50012276C /* 11764 - Jumping Mario */,
+				5ECD17B625285FD40012276C /* 11799 - Horror Dash */,
+				5ECD180D2528B8CE0012276C /* 11942 - Lumberjack Sequencing */,
+				5ECD1867252965180012276C /* 12015 - Google is Feeling Lucky */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -730,6 +796,33 @@
 				5ECD179925280AFD0012276C /* input.txt */,
 			);
 			path = "11764 - Jumping Mario";
+			sourceTree = "<group>";
+		};
+		5ECD17B725285FD40012276C /* 11799 - Horror Dash */ = {
+			isa = PBXGroup;
+			children = (
+				5ECD17B825285FD40012276C /* main.cpp */,
+				5ECD17EF2528600B0012276C /* input.txt */,
+			);
+			path = "11799 - Horror Dash";
+			sourceTree = "<group>";
+		};
+		5ECD180E2528B8CE0012276C /* 11942 - Lumberjack Sequencing */ = {
+			isa = PBXGroup;
+			children = (
+				5ECD180F2528B8CE0012276C /* main.cpp */,
+				5ECD18482528B93B0012276C /* input.txt */,
+			);
+			path = "11942 - Lumberjack Sequencing";
+			sourceTree = "<group>";
+		};
+		5ECD1868252965180012276C /* 12015 - Google is Feeling Lucky */ = {
+			isa = PBXGroup;
+			children = (
+				5ECD1869252965180012276C /* main.cpp */,
+				5ECD18A42529654A0012276C /* input.txt */,
+			);
+			path = "12015 - Google is Feeling Lucky";
 			sourceTree = "<group>";
 		};
 		5EEA8FE82514693600922DD0 /* 11498 - Division of Nlogonia */ = {
@@ -1071,6 +1164,57 @@
 			productReference = 5ECD176225280AD50012276C /* 11764 - Jumping Mario */;
 			productType = "com.apple.product-type.tool";
 		};
+		5ECD17B525285FD40012276C /* 11799 - Horror Dash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ECD17BA25285FD40012276C /* Build configuration list for PBXNativeTarget "11799 - Horror Dash" */;
+			buildPhases = (
+				5ECD17B225285FD40012276C /* Sources */,
+				5ECD17B325285FD40012276C /* Frameworks */,
+				5ECD17B425285FD40012276C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "11799 - Horror Dash";
+			productName = "11799 - Horror Dash";
+			productReference = 5ECD17B625285FD40012276C /* 11799 - Horror Dash */;
+			productType = "com.apple.product-type.tool";
+		};
+		5ECD180C2528B8CE0012276C /* 11942 - Lumberjack Sequencing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ECD18112528B8CE0012276C /* Build configuration list for PBXNativeTarget "11942 - Lumberjack Sequencing" */;
+			buildPhases = (
+				5ECD18092528B8CE0012276C /* Sources */,
+				5ECD180A2528B8CE0012276C /* Frameworks */,
+				5ECD180B2528B8CE0012276C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "11942 - Lumberjack Sequencing";
+			productName = "11942 - Lumberjack Sequencing";
+			productReference = 5ECD180D2528B8CE0012276C /* 11942 - Lumberjack Sequencing */;
+			productType = "com.apple.product-type.tool";
+		};
+		5ECD1866252965180012276C /* 12015 - Google is Feeling Lucky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ECD186B252965180012276C /* Build configuration list for PBXNativeTarget "12015 - Google is Feeling Lucky" */;
+			buildPhases = (
+				5ECD1863252965180012276C /* Sources */,
+				5ECD1864252965180012276C /* Frameworks */,
+				5ECD1865252965180012276C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "12015 - Google is Feeling Lucky";
+			productName = "12015 - Google is Feeling Lucky";
+			productReference = 5ECD1867252965180012276C /* 12015 - Google is Feeling Lucky */;
+			productType = "com.apple.product-type.tool";
+		};
 		5EEA8FE62514693600922DD0 /* 11498 - Division of Nlogonia */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EEA8FED2514693600922DD0 /* Build configuration list for PBXNativeTarget "11498 - Division of Nlogonia" */;
@@ -1278,6 +1422,15 @@
 					5ECD176125280AD50012276C = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
+					5ECD17B525285FD40012276C = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					5ECD180C2528B8CE0012276C = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					5ECD1866252965180012276C = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 					5EEA8FE62514693600922DD0 = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -1344,6 +1497,9 @@
 				5ECD16C22522633C0012276C /* 11559 - Event Planning */,
 				5ECD1710252792AC0012276C /* 11679 - Sub-prime */,
 				5ECD176125280AD50012276C /* 11764 - Jumping Mario */,
+				5ECD17B525285FD40012276C /* 11799 - Horror Dash */,
+				5ECD180C2528B8CE0012276C /* 11942 - Lumberjack Sequencing */,
+				5ECD1866252965180012276C /* 12015 - Google is Feeling Lucky */,
 			);
 		};
 /* End PBXProject section */
@@ -1466,6 +1622,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ECD176525280AD50012276C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECD17B225285FD40012276C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECD17B925285FD40012276C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECD18092528B8CE0012276C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECD18102528B8CE0012276C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECD1863252965180012276C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECD186A252965180012276C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1909,6 +2089,60 @@
 			};
 			name = Release;
 		};
+		5ECD17BB25285FD40012276C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5ECD17BC25285FD40012276C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5ECD18122528B8CE0012276C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5ECD18132528B8CE0012276C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5ECD186C252965180012276C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5ECD186D252965180012276C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		5EEA8FEB2514693600922DD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2214,6 +2448,33 @@
 			buildConfigurations = (
 				5ECD176725280AD50012276C /* Debug */,
 				5ECD176825280AD50012276C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ECD17BA25285FD40012276C /* Build configuration list for PBXNativeTarget "11799 - Horror Dash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECD17BB25285FD40012276C /* Debug */,
+				5ECD17BC25285FD40012276C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ECD18112528B8CE0012276C /* Build configuration list for PBXNativeTarget "11942 - Lumberjack Sequencing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECD18122528B8CE0012276C /* Debug */,
+				5ECD18132528B8CE0012276C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ECD186B252965180012276C /* Build configuration list for PBXNativeTarget "12015 - Google is Feeling Lucky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECD186C252965180012276C /* Debug */,
+				5ECD186D252965180012276C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
