@@ -94,6 +94,11 @@
 			<key>orderHint</key>
 			<integer>26</integer>
 		</dict>
+		<key>12157 - Tariff Plan.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>27</integer>
+		</dict>
 		<key>12250 - Language Detection.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -238,6 +243,11 @@
 			<true/>
 		</dict>
 		<key>5ECD1866252965180012276C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5ECD18C32532155E0012276C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
