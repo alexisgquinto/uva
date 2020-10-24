@@ -124,6 +124,11 @@
 			<key>orderHint</key>
 			<integer>14</integer>
 		</dict>
+		<key>12468 - Zapping.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>28</integer>
+		</dict>
 		<key>12577 - Hajj-e-Akbar.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -248,6 +253,11 @@
 			<true/>
 		</dict>
 		<key>5ECD18C32532155E0012276C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5ECD1907253288CF0012276C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

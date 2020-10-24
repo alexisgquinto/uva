@@ -26,6 +26,7 @@
 		5ECD18102528B8CE0012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD180F2528B8CE0012276C /* main.cpp */; };
 		5ECD186A252965180012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD1869252965180012276C /* main.cpp */; };
 		5ECD18C72532155E0012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD18C62532155E0012276C /* main.cpp */; };
+		5ECD190B253288CF0012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD190A253288CF0012276C /* main.cpp */; };
 		5EEA8FEA2514693600922DD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA8FE92514693600922DD0 /* main.cpp */; };
 		5EEA90112514BAB500922DD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA90102514BAB500922DD0 /* main.cpp */; };
 		5EEA903B2514C23400922DD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA903A2514C23400922DD0 /* main.cpp */; };
@@ -209,6 +210,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		5ECD1906253288CF0012276C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		5EEA8FE52514693600922DD0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -352,6 +362,9 @@
 		5ECD18C42532155E0012276C /* 12157 - Tariff Plan */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12157 - Tariff Plan"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ECD18C62532155E0012276C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5ECD18E7253215850012276C /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		5ECD1908253288CF0012276C /* 12468 - Zapping */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12468 - Zapping"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECD190A253288CF0012276C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5ECD1949253288FA0012276C /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		5EEA8FE72514693600922DD0 /* 11498 - Division of Nlogonia */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11498 - Division of Nlogonia"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EEA8FE92514693600922DD0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5EEA90002514696F00922DD0 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
@@ -515,6 +528,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5ECD1905253288CF0012276C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5EEA8FE42514693600922DD0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -605,6 +625,7 @@
 				5ECD180E2528B8CE0012276C /* 11942 - Lumberjack Sequencing */,
 				5ECD1868252965180012276C /* 12015 - Google is Feeling Lucky */,
 				5ECD18C52532155E0012276C /* 12157 - Tariff Plan */,
+				5ECD1909253288CF0012276C /* 12468 - Zapping */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -666,6 +687,7 @@
 				5ECD180D2528B8CE0012276C /* 11942 - Lumberjack Sequencing */,
 				5ECD1867252965180012276C /* 12015 - Google is Feeling Lucky */,
 				5ECD18C42532155E0012276C /* 12157 - Tariff Plan */,
+				5ECD1908253288CF0012276C /* 12468 - Zapping */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -854,6 +876,15 @@
 				5ECD18E7253215850012276C /* input.txt */,
 			);
 			path = "12157 - Tariff Plan";
+			sourceTree = "<group>";
+		};
+		5ECD1909253288CF0012276C /* 12468 - Zapping */ = {
+			isa = PBXGroup;
+			children = (
+				5ECD190A253288CF0012276C /* main.cpp */,
+				5ECD1949253288FA0012276C /* input.txt */,
+			);
+			path = "12468 - Zapping";
 			sourceTree = "<group>";
 		};
 		5EEA8FE82514693600922DD0 /* 11498 - Division of Nlogonia */ = {
@@ -1263,6 +1294,23 @@
 			productReference = 5ECD18C42532155E0012276C /* 12157 - Tariff Plan */;
 			productType = "com.apple.product-type.tool";
 		};
+		5ECD1907253288CF0012276C /* 12468 - Zapping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ECD190C253288CF0012276C /* Build configuration list for PBXNativeTarget "12468 - Zapping" */;
+			buildPhases = (
+				5ECD1904253288CF0012276C /* Sources */,
+				5ECD1905253288CF0012276C /* Frameworks */,
+				5ECD1906253288CF0012276C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "12468 - Zapping";
+			productName = "12468 - Zapping";
+			productReference = 5ECD1908253288CF0012276C /* 12468 - Zapping */;
+			productType = "com.apple.product-type.tool";
+		};
 		5EEA8FE62514693600922DD0 /* 11498 - Division of Nlogonia */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EEA8FED2514693600922DD0 /* Build configuration list for PBXNativeTarget "11498 - Division of Nlogonia" */;
@@ -1482,6 +1530,9 @@
 					5ECD18C32532155E0012276C = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
+					5ECD1907253288CF0012276C = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 					5EEA8FE62514693600922DD0 = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -1552,6 +1603,7 @@
 				5ECD180C2528B8CE0012276C /* 11942 - Lumberjack Sequencing */,
 				5ECD1866252965180012276C /* 12015 - Google is Feeling Lucky */,
 				5ECD18C32532155E0012276C /* 12157 - Tariff Plan */,
+				5ECD1907253288CF0012276C /* 12468 - Zapping */,
 			);
 		};
 /* End PBXProject section */
@@ -1706,6 +1758,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ECD18C72532155E0012276C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECD1904253288CF0012276C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECD190B253288CF0012276C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2221,6 +2281,24 @@
 			};
 			name = Release;
 		};
+		5ECD190D253288CF0012276C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5ECD190E253288CF0012276C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		5EEA8FEB2514693600922DD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2562,6 +2640,15 @@
 			buildConfigurations = (
 				5ECD18C92532155E0012276C /* Debug */,
 				5ECD18CA2532155E0012276C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ECD190C253288CF0012276C /* Build configuration list for PBXNativeTarget "12468 - Zapping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECD190D253288CF0012276C /* Debug */,
+				5ECD190E253288CF0012276C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
