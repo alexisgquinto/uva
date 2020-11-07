@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5E7DBF4D2519A80500DFD790 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E7DBF4C2519A80500DFD790 /* main.cpp */; };
 		5E7DBF8E251B638000DFD790 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E7DBF8D251B638000DFD790 /* main.cpp */; };
+		5E88DEA3255704E3007D1EEE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E88DEA2255704E3007D1EEE /* main.cpp */; };
 		5E90FA3E2513AC90005C5E46 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E90FA3D2513AC90005C5E46 /* main.cpp */; };
 		5E9C1C8C2543D27700A29AAE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C1C8B2543D27700A29AAE /* main.cpp */; };
 		5EAC6708250E283000936CF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC6707250E283000936CF4 /* main.cpp */; };
@@ -50,6 +51,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		5E7DBF89251B638000DFD790 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5E88DE9E255704E3007D1EEE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -319,6 +329,9 @@
 		5E7DBF8B251B638000DFD790 /* 10114 - Loansome Car Buyer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10114 - Loansome Car Buyer"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7DBF8D251B638000DFD790 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5E7DBFB6251B63B600DFD790 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		5E88DEA0255704E3007D1EEE /* 12554 - A Special "Happy Birthday" Song!!! */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12554 - A Special \"Happy Birthday\" Song!!!"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E88DEA2255704E3007D1EEE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5E88DEE52557052D007D1EEE /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		5E90FA3B2513AC90005C5E46 /* 11364 - Parking */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11364 - Parking"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E90FA3D2513AC90005C5E46 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5E90FA432513ACF2005C5E46 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
@@ -416,6 +429,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5E7DBF88251B638000DFD790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E88DE9D255704E3007D1EEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -647,6 +667,7 @@
 				5ECD18C52532155E0012276C /* 12157 - Tariff Plan */,
 				5ECD1909253288CF0012276C /* 12468 - Zapping */,
 				5E9C1C8A2543D27700A29AAE /* 12503 - Robot Instructions */,
+				5E88DEA1255704E3007D1EEE /* 12554 - A Special "Happy Birthday" Song!!! */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -658,6 +679,15 @@
 				5E7DBFB6251B63B600DFD790 /* input.txt */,
 			);
 			path = "10114 - Loansome Car Buyer";
+			sourceTree = "<group>";
+		};
+		5E88DEA1255704E3007D1EEE /* 12554 - A Special "Happy Birthday" Song!!! */ = {
+			isa = PBXGroup;
+			children = (
+				5E88DEA2255704E3007D1EEE /* main.cpp */,
+				5E88DEE52557052D007D1EEE /* input.txt */,
+			);
+			path = "12554 - A Special \"Happy Birthday\" Song!!!";
 			sourceTree = "<group>";
 		};
 		5E90FA3C2513AC90005C5E46 /* 11364 - Parking */ = {
@@ -719,6 +749,7 @@
 				5ECD18C42532155E0012276C /* 12157 - Tariff Plan */,
 				5ECD1908253288CF0012276C /* 12468 - Zapping */,
 				5E9C1C892543D27700A29AAE /* 12503 - Robot Instructions */,
+				5E88DEA0255704E3007D1EEE /* 12554 - A Special "Happy Birthday" Song!!! */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1034,6 +1065,23 @@
 			name = "10114 - Loansome Car Buyer";
 			productName = "10114 - Loansome Car Buyer";
 			productReference = 5E7DBF8B251B638000DFD790 /* 10114 - Loansome Car Buyer */;
+			productType = "com.apple.product-type.tool";
+		};
+		5E88DE9F255704E3007D1EEE /* 12554 - A Special "Happy Birthday" Song!!! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E88DEA6255704E3007D1EEE /* Build configuration list for PBXNativeTarget "12554 - A Special "Happy Birthday" Song!!!" */;
+			buildPhases = (
+				5E88DE9C255704E3007D1EEE /* Sources */,
+				5E88DE9D255704E3007D1EEE /* Frameworks */,
+				5E88DE9E255704E3007D1EEE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "12554 - A Special \"Happy Birthday\" Song!!!";
+			productName = "12554 - A Special \"Happy Birthday\" Song!!!";
+			productReference = 5E88DEA0255704E3007D1EEE /* 12554 - A Special "Happy Birthday" Song!!! */;
 			productType = "com.apple.product-type.tool";
 		};
 		5E90FA3A2513AC90005C5E46 /* 11364 - Parking */ = {
@@ -1527,6 +1575,9 @@
 					5E7DBF8A251B638000DFD790 = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					5E88DE9F255704E3007D1EEE = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 					5E90FA3A2513AC90005C5E46 = {
 						CreatedOnToolsVersion = 11.7;
 					};
@@ -1656,6 +1707,7 @@
 				5ECD18C32532155E0012276C /* 12157 - Tariff Plan */,
 				5ECD1907253288CF0012276C /* 12468 - Zapping */,
 				5E9C1C882543D27700A29AAE /* 12503 - Robot Instructions */,
+				5E88DE9F255704E3007D1EEE /* 12554 - A Special "Happy Birthday" Song!!! */,
 			);
 		};
 /* End PBXProject section */
@@ -1674,6 +1726,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E7DBF8E251B638000DFD790 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E88DE9C255704E3007D1EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E88DEA3255704E3007D1EEE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1932,6 +1992,24 @@
 			name = Debug;
 		};
 		5E7DBF91251B638000DFD790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E88DEA4255704E3007D1EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E88DEA5255704E3007D1EEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
@@ -2556,6 +2634,15 @@
 			buildConfigurations = (
 				5E7DBF90251B638000DFD790 /* Debug */,
 				5E7DBF91251B638000DFD790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E88DEA6255704E3007D1EEE /* Build configuration list for PBXNativeTarget "12554 - A Special "Happy Birthday" Song!!!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E88DEA4255704E3007D1EEE /* Debug */,
+				5E88DEA5255704E3007D1EEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

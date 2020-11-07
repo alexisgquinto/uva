@@ -134,6 +134,11 @@
 			<key>orderHint</key>
 			<integer>29</integer>
 		</dict>
+		<key>12554 - A Special "Happy Birthday" Song!!!.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>30</integer>
+		</dict>
 		<key>12577 - Hajj-e-Akbar.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -168,6 +173,11 @@
 			<true/>
 		</dict>
 		<key>5E7DBF8A251B638000DFD790</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5E88DE9F255704E3007D1EEE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
