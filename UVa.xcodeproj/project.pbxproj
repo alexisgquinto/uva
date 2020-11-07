@@ -10,6 +10,7 @@
 		5E7DBF4D2519A80500DFD790 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E7DBF4C2519A80500DFD790 /* main.cpp */; };
 		5E7DBF8E251B638000DFD790 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E7DBF8D251B638000DFD790 /* main.cpp */; };
 		5E90FA3E2513AC90005C5E46 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E90FA3D2513AC90005C5E46 /* main.cpp */; };
+		5E9C1C8C2543D27700A29AAE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C1C8B2543D27700A29AAE /* main.cpp */; };
 		5EAC6708250E283000936CF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC6707250E283000936CF4 /* main.cpp */; };
 		5EAC6714250E28FD00936CF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC6713250E28FD00936CF4 /* main.cpp */; };
 		5EAC6720250E299F00936CF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC671F250E299F00936CF4 /* main.cpp */; };
@@ -58,6 +59,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		5E90FA392513AC90005C5E46 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5E9C1C872543D27700A29AAE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -312,6 +322,9 @@
 		5E90FA3B2513AC90005C5E46 /* 11364 - Parking */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11364 - Parking"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E90FA3D2513AC90005C5E46 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5E90FA432513ACF2005C5E46 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		5E9C1C892543D27700A29AAE /* 12503 - Robot Instructions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12503 - Robot Instructions"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9C1C8B2543D27700A29AAE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5E9C1CCC2543D2B100A29AAE /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		5EAC6705250E283000936CF4 /* 272 - TEX Quotes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "272 - TEX Quotes"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAC6707250E283000936CF4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5EAC670C250E286800936CF4 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
@@ -410,6 +423,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5E90FA382513AC90005C5E46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9C1C862543D27700A29AAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -626,6 +646,7 @@
 				5ECD1868252965180012276C /* 12015 - Google is Feeling Lucky */,
 				5ECD18C52532155E0012276C /* 12157 - Tariff Plan */,
 				5ECD1909253288CF0012276C /* 12468 - Zapping */,
+				5E9C1C8A2543D27700A29AAE /* 12503 - Robot Instructions */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -646,6 +667,15 @@
 				5E90FA432513ACF2005C5E46 /* input.txt */,
 			);
 			path = "11364 - Parking";
+			sourceTree = "<group>";
+		};
+		5E9C1C8A2543D27700A29AAE /* 12503 - Robot Instructions */ = {
+			isa = PBXGroup;
+			children = (
+				5E9C1C8B2543D27700A29AAE /* main.cpp */,
+				5E9C1CCC2543D2B100A29AAE /* input.txt */,
+			);
+			path = "12503 - Robot Instructions";
 			sourceTree = "<group>";
 		};
 		5EAC66EC250E275900936CF4 = {
@@ -688,6 +718,7 @@
 				5ECD1867252965180012276C /* 12015 - Google is Feeling Lucky */,
 				5ECD18C42532155E0012276C /* 12157 - Tariff Plan */,
 				5ECD1908253288CF0012276C /* 12468 - Zapping */,
+				5E9C1C892543D27700A29AAE /* 12503 - Robot Instructions */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1020,6 +1051,23 @@
 			name = "11364 - Parking";
 			productName = "11364 - Parking";
 			productReference = 5E90FA3B2513AC90005C5E46 /* 11364 - Parking */;
+			productType = "com.apple.product-type.tool";
+		};
+		5E9C1C882543D27700A29AAE /* 12503 - Robot Instructions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E9C1C8F2543D27700A29AAE /* Build configuration list for PBXNativeTarget "12503 - Robot Instructions" */;
+			buildPhases = (
+				5E9C1C852543D27700A29AAE /* Sources */,
+				5E9C1C862543D27700A29AAE /* Frameworks */,
+				5E9C1C872543D27700A29AAE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "12503 - Robot Instructions";
+			productName = "12503 - Robot Instructions";
+			productReference = 5E9C1C892543D27700A29AAE /* 12503 - Robot Instructions */;
 			productType = "com.apple.product-type.tool";
 		};
 		5EAC6704250E283000936CF4 /* 272 - TEX Quotes */ = {
@@ -1482,6 +1530,9 @@
 					5E90FA3A2513AC90005C5E46 = {
 						CreatedOnToolsVersion = 11.7;
 					};
+					5E9C1C882543D27700A29AAE = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 					5EAC6704250E283000936CF4 = {
 						CreatedOnToolsVersion = 11.7;
 					};
@@ -1604,6 +1655,7 @@
 				5ECD1866252965180012276C /* 12015 - Google is Feeling Lucky */,
 				5ECD18C32532155E0012276C /* 12157 - Tariff Plan */,
 				5ECD1907253288CF0012276C /* 12468 - Zapping */,
+				5E9C1C882543D27700A29AAE /* 12503 - Robot Instructions */,
 			);
 		};
 /* End PBXProject section */
@@ -1630,6 +1682,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E90FA3E2513AC90005C5E46 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9C1C852543D27700A29AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9C1C8C2543D27700A29AAE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1891,6 +1951,24 @@
 		5E90FA412513AC90005C5E46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E9C1C8D2543D27700A29AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E9C1C8E2543D27700A29AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2487,6 +2565,15 @@
 			buildConfigurations = (
 				5E90FA402513AC90005C5E46 /* Debug */,
 				5E90FA412513AC90005C5E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E9C1C8F2543D27700A29AAE /* Build configuration list for PBXNativeTarget "12503 - Robot Instructions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9C1C8D2543D27700A29AAE /* Debug */,
+				5E9C1C8E2543D27700A29AAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

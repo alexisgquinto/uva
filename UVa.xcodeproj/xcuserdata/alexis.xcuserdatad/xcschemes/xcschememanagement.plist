@@ -129,6 +129,11 @@
 			<key>orderHint</key>
 			<integer>28</integer>
 		</dict>
+		<key>12503 - Robot Instructions.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>29</integer>
+		</dict>
 		<key>12577 - Hajj-e-Akbar.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -168,6 +173,11 @@
 			<true/>
 		</dict>
 		<key>5E90FA3A2513AC90005C5E46</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5E9C1C882543D27700A29AAE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
