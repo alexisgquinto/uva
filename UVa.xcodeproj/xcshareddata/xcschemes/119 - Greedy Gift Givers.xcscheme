@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5ECD15EA2520C9CF0012276C"
-               BuildableName = "10300 - Ecological Premium"
-               BlueprintName = "10300 - Ecological Premium"
+               BlueprintIdentifier = "5EA8F08525BBC4F9004E944A"
+               BuildableName = "119 - Greedy Gift Givers"
+               BlueprintName = "119 - Greedy Gift Givers"
                ReferencedContainer = "container:UVa.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -36,7 +36,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/alexis/Documents/Workspace/Academy/Algorithms/UVa/Introduction/Getting Started - The Easy Problems/Easy/10300 - Ecological Premium"
+      customWorkingDirectory = "/Users/alexis/Documents/Workspace/Academy/Algorithms/UVa/Introduction/Getting Started - The Easy Problems/Medium/119 - Greedy Gift Givers"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
@@ -45,9 +45,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5ECD15EA2520C9CF0012276C"
-            BuildableName = "10300 - Ecological Premium"
-            BlueprintName = "10300 - Ecological Premium"
+            BlueprintIdentifier = "5EA8F08525BBC4F9004E944A"
+            BuildableName = "119 - Greedy Gift Givers"
+            BlueprintName = "119 - Greedy Gift Givers"
             ReferencedContainer = "container:UVa.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,9 +62,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5ECD15EA2520C9CF0012276C"
-            BuildableName = "10300 - Ecological Premium"
-            BlueprintName = "10300 - Ecological Premium"
+            BlueprintIdentifier = "5EA8F08525BBC4F9004E944A"
+            BuildableName = "119 - Greedy Gift Givers"
+            BlueprintName = "119 - Greedy Gift Givers"
             ReferencedContainer = "container:UVa.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
