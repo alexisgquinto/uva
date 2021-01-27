@@ -30,6 +30,7 @@
 		5ECD186A252965180012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD1869252965180012276C /* main.cpp */; };
 		5ECD18C72532155E0012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD18C62532155E0012276C /* main.cpp */; };
 		5ECD190B253288CF0012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD190A253288CF0012276C /* main.cpp */; };
+		5ED1F38B25BF3C4B0038BD30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ED1F38A25BF3C4B0038BD30 /* main.cpp */; };
 		5EEA8FEA2514693600922DD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA8FE92514693600922DD0 /* main.cpp */; };
 		5EEA90112514BAB500922DD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA90102514BAB500922DD0 /* main.cpp */; };
 		5EEA903B2514C23400922DD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA903A2514C23400922DD0 /* main.cpp */; };
@@ -249,6 +250,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		5ED1F38625BF3C4B0038BD30 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		5EEA8FE52514693600922DD0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -404,6 +414,9 @@
 		5ECD1908253288CF0012276C /* 12468 - Zapping */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12468 - Zapping"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ECD190A253288CF0012276C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5ECD1949253288FA0012276C /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		5ED1F38825BF3C4B0038BD30 /* 573 - The Snail */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "573 - The Snail"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED1F38A25BF3C4B0038BD30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5ED1F3B025BF3C960038BD30 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		5EEA8FE72514693600922DD0 /* 11498 - Division of Nlogonia */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11498 - Division of Nlogonia"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EEA8FE92514693600922DD0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5EEA90002514696F00922DD0 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
@@ -595,6 +608,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5ED1F38525BF3C4B0038BD30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5EEA8FE42514693600922DD0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -732,6 +752,7 @@
 			isa = PBXGroup;
 			children = (
 				5EA8F08725BBC4F9004E944A /* 119 - Greedy Gift Givers */,
+				5ED1F38925BF3C4B0038BD30 /* 573 - The Snail */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -788,6 +809,7 @@
 				5E9C1C892543D27700A29AAE /* 12503 - Robot Instructions */,
 				5E88DEA0255704E3007D1EEE /* 12554 - A Special "Happy Birthday" Song!!! */,
 				5EA8F08625BBC4F9004E944A /* 119 - Greedy Gift Givers */,
+				5ED1F38825BF3C4B0038BD30 /* 573 - The Snail */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -986,6 +1008,15 @@
 				5ECD1949253288FA0012276C /* input.txt */,
 			);
 			path = "12468 - Zapping";
+			sourceTree = "<group>";
+		};
+		5ED1F38925BF3C4B0038BD30 /* 573 - The Snail */ = {
+			isa = PBXGroup;
+			children = (
+				5ED1F38A25BF3C4B0038BD30 /* main.cpp */,
+				5ED1F3B025BF3C960038BD30 /* input.txt */,
+			);
+			path = "573 - The Snail";
 			sourceTree = "<group>";
 		};
 		5EEA8FE82514693600922DD0 /* 11498 - Division of Nlogonia */ = {
@@ -1463,6 +1494,23 @@
 			productReference = 5ECD1908253288CF0012276C /* 12468 - Zapping */;
 			productType = "com.apple.product-type.tool";
 		};
+		5ED1F38725BF3C4B0038BD30 /* 573 - The Snail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ED1F38E25BF3C4B0038BD30 /* Build configuration list for PBXNativeTarget "573 - The Snail" */;
+			buildPhases = (
+				5ED1F38425BF3C4B0038BD30 /* Sources */,
+				5ED1F38525BF3C4B0038BD30 /* Frameworks */,
+				5ED1F38625BF3C4B0038BD30 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "573 - The Snail";
+			productName = "573 - The Snail";
+			productReference = 5ED1F38825BF3C4B0038BD30 /* 573 - The Snail */;
+			productType = "com.apple.product-type.tool";
+		};
 		5EEA8FE62514693600922DD0 /* 11498 - Division of Nlogonia */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EEA8FED2514693600922DD0 /* Build configuration list for PBXNativeTarget "11498 - Division of Nlogonia" */;
@@ -1694,6 +1742,9 @@
 					5ECD1907253288CF0012276C = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
+					5ED1F38725BF3C4B0038BD30 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					5EEA8FE62514693600922DD0 = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -1768,6 +1819,7 @@
 				5E9C1C882543D27700A29AAE /* 12503 - Robot Instructions */,
 				5E88DE9F255704E3007D1EEE /* 12554 - A Special "Happy Birthday" Song!!! */,
 				5EA8F08525BBC4F9004E944A /* 119 - Greedy Gift Givers */,
+				5ED1F38725BF3C4B0038BD30 /* 573 - The Snail */,
 			);
 		};
 /* End PBXProject section */
@@ -1954,6 +2006,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ECD190B253288CF0012276C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED1F38425BF3C4B0038BD30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED1F38B25BF3C4B0038BD30 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2591,6 +2651,24 @@
 			};
 			name = Release;
 		};
+		5ED1F38C25BF3C4B0038BD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5ED1F38D25BF3C4B0038BD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		5EEA8FEB2514693600922DD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2986,6 +3064,15 @@
 			buildConfigurations = (
 				5ECD190D253288CF0012276C /* Debug */,
 				5ECD190E253288CF0012276C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ED1F38E25BF3C4B0038BD30 /* Build configuration list for PBXNativeTarget "573 - The Snail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED1F38C25BF3C4B0038BD30 /* Debug */,
+				5ED1F38D25BF3C4B0038BD30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
