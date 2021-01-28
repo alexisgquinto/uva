@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E21D5FC25C2FD390056EE86 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E21D5FB25C2FD390056EE86 /* main.cpp */; };
 		5E7DBF4D2519A80500DFD790 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E7DBF4C2519A80500DFD790 /* main.cpp */; };
 		5E7DBF8E251B638000DFD790 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E7DBF8D251B638000DFD790 /* main.cpp */; };
 		5E88DEA3255704E3007D1EEE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E88DEA2255704E3007D1EEE /* main.cpp */; };
@@ -43,6 +44,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		5E21D5F725C2FD390056EE86 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		5E7DBF482519A80500DFD790 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -343,6 +353,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5E21D5F925C2FD390056EE86 /* 661 - Blowing Fuses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "661 - Blowing Fuses"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E21D5FB25C2FD390056EE86 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5E21D62225C2FD830056EE86 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		5E7DBF4A2519A80500DFD790 /* 621 - Secret Research */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "621 - Secret Research"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7DBF4C2519A80500DFD790 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5E7DBF752519A84400DFD790 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
@@ -447,6 +460,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5E21D5F625C2FD390056EE86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5E7DBF472519A80500DFD790 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -681,6 +701,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E21D5FA25C2FD390056EE86 /* 661 - Blowing Fuses */ = {
+			isa = PBXGroup;
+			children = (
+				5E21D5FB25C2FD390056EE86 /* main.cpp */,
+				5E21D62225C2FD830056EE86 /* input.txt */,
+			);
+			path = "661 - Blowing Fuses";
+			sourceTree = "<group>";
+		};
 		5E7DBF4B2519A80500DFD790 /* 621 - Secret Research */ = {
 			isa = PBXGroup;
 			children = (
@@ -753,6 +782,7 @@
 			children = (
 				5EA8F08725BBC4F9004E944A /* 119 - Greedy Gift Givers */,
 				5ED1F38925BF3C4B0038BD30 /* 573 - The Snail */,
+				5E21D5FA25C2FD390056EE86 /* 661 - Blowing Fuses */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -810,6 +840,7 @@
 				5E88DEA0255704E3007D1EEE /* 12554 - A Special "Happy Birthday" Song!!! */,
 				5EA8F08625BBC4F9004E944A /* 119 - Greedy Gift Givers */,
 				5ED1F38825BF3C4B0038BD30 /* 573 - The Snail */,
+				5E21D5F925C2FD390056EE86 /* 661 - Blowing Fuses */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1103,6 +1134,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5E21D5F825C2FD390056EE86 /* 661 - Blowing Fuses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E21D5FF25C2FD390056EE86 /* Build configuration list for PBXNativeTarget "661 - Blowing Fuses" */;
+			buildPhases = (
+				5E21D5F525C2FD390056EE86 /* Sources */,
+				5E21D5F625C2FD390056EE86 /* Frameworks */,
+				5E21D5F725C2FD390056EE86 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "661 - Blowing Fuses";
+			productName = "661 - Blowing Fuses";
+			productReference = 5E21D5F925C2FD390056EE86 /* 661 - Blowing Fuses */;
+			productType = "com.apple.product-type.tool";
+		};
 		5E7DBF492519A80500DFD790 /* 621 - Secret Research */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E7DBF502519A80500DFD790 /* Build configuration list for PBXNativeTarget "621 - Secret Research" */;
@@ -1673,6 +1721,9 @@
 				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "Alexis Quinto";
 				TargetAttributes = {
+					5E21D5F825C2FD390056EE86 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					5E7DBF492519A80500DFD790 = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -1820,11 +1871,20 @@
 				5E88DE9F255704E3007D1EEE /* 12554 - A Special "Happy Birthday" Song!!! */,
 				5EA8F08525BBC4F9004E944A /* 119 - Greedy Gift Givers */,
 				5ED1F38725BF3C4B0038BD30 /* 573 - The Snail */,
+				5E21D5F825C2FD390056EE86 /* 661 - Blowing Fuses */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5E21D5F525C2FD390056EE86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E21D5FC25C2FD390056EE86 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5E7DBF462519A80500DFD790 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2092,6 +2152,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		5E21D5FD25C2FD390056EE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E21D5FE25C2FD390056EE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		5E7DBF4E2519A80500DFD790 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2852,6 +2930,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5E21D5FF25C2FD390056EE86 /* Build configuration list for PBXNativeTarget "661 - Blowing Fuses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E21D5FD25C2FD390056EE86 /* Debug */,
+				5E21D5FE25C2FD390056EE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5E7DBF502519A80500DFD790 /* Build configuration list for PBXNativeTarget "621 - Secret Research" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
