@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5E21D5FC25C2FD390056EE86 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E21D5FB25C2FD390056EE86 /* main.cpp */; };
+		5E21D64C25C651190056EE86 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E21D64B25C651190056EE86 /* main.cpp */; };
 		5E7DBF4D2519A80500DFD790 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E7DBF4C2519A80500DFD790 /* main.cpp */; };
 		5E7DBF8E251B638000DFD790 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E7DBF8D251B638000DFD790 /* main.cpp */; };
 		5E88DEA3255704E3007D1EEE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E88DEA2255704E3007D1EEE /* main.cpp */; };
@@ -45,6 +46,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		5E21D5F725C2FD390056EE86 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5E21D64725C651190056EE86 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -356,6 +366,9 @@
 		5E21D5F925C2FD390056EE86 /* 661 - Blowing Fuses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "661 - Blowing Fuses"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E21D5FB25C2FD390056EE86 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5E21D62225C2FD830056EE86 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		5E21D64925C651190056EE86 /* 10141 - Request for Proposal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10141 - Request for Proposal"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E21D64B25C651190056EE86 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5E21D67325C6513B0056EE86 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		5E7DBF4A2519A80500DFD790 /* 621 - Secret Research */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "621 - Secret Research"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7DBF4C2519A80500DFD790 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5E7DBF752519A84400DFD790 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
@@ -461,6 +474,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		5E21D5F625C2FD390056EE86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E21D64625C651190056EE86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -710,6 +730,15 @@
 			path = "661 - Blowing Fuses";
 			sourceTree = "<group>";
 		};
+		5E21D64A25C651190056EE86 /* 10141 - Request for Proposal */ = {
+			isa = PBXGroup;
+			children = (
+				5E21D64B25C651190056EE86 /* main.cpp */,
+				5E21D67325C6513B0056EE86 /* input.txt */,
+			);
+			path = "10141 - Request for Proposal";
+			sourceTree = "<group>";
+		};
 		5E7DBF4B2519A80500DFD790 /* 621 - Secret Research */ = {
 			isa = PBXGroup;
 			children = (
@@ -783,6 +812,7 @@
 				5EA8F08725BBC4F9004E944A /* 119 - Greedy Gift Givers */,
 				5ED1F38925BF3C4B0038BD30 /* 573 - The Snail */,
 				5E21D5FA25C2FD390056EE86 /* 661 - Blowing Fuses */,
+				5E21D64A25C651190056EE86 /* 10141 - Request for Proposal */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -841,6 +871,7 @@
 				5EA8F08625BBC4F9004E944A /* 119 - Greedy Gift Givers */,
 				5ED1F38825BF3C4B0038BD30 /* 573 - The Snail */,
 				5E21D5F925C2FD390056EE86 /* 661 - Blowing Fuses */,
+				5E21D64925C651190056EE86 /* 10141 - Request for Proposal */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1149,6 +1180,23 @@
 			name = "661 - Blowing Fuses";
 			productName = "661 - Blowing Fuses";
 			productReference = 5E21D5F925C2FD390056EE86 /* 661 - Blowing Fuses */;
+			productType = "com.apple.product-type.tool";
+		};
+		5E21D64825C651190056EE86 /* 10141 - Request for Proposal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E21D64F25C651190056EE86 /* Build configuration list for PBXNativeTarget "10141 - Request for Proposal" */;
+			buildPhases = (
+				5E21D64525C651190056EE86 /* Sources */,
+				5E21D64625C651190056EE86 /* Frameworks */,
+				5E21D64725C651190056EE86 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "10141 - Request for Proposal";
+			productName = "10141 - Request for Proposal";
+			productReference = 5E21D64925C651190056EE86 /* 10141 - Request for Proposal */;
 			productType = "com.apple.product-type.tool";
 		};
 		5E7DBF492519A80500DFD790 /* 621 - Secret Research */ = {
@@ -1724,6 +1772,9 @@
 					5E21D5F825C2FD390056EE86 = {
 						CreatedOnToolsVersion = 12.4;
 					};
+					5E21D64825C651190056EE86 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					5E7DBF492519A80500DFD790 = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -1872,6 +1923,7 @@
 				5EA8F08525BBC4F9004E944A /* 119 - Greedy Gift Givers */,
 				5ED1F38725BF3C4B0038BD30 /* 573 - The Snail */,
 				5E21D5F825C2FD390056EE86 /* 661 - Blowing Fuses */,
+				5E21D64825C651190056EE86 /* 10141 - Request for Proposal */,
 			);
 		};
 /* End PBXProject section */
@@ -1882,6 +1934,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E21D5FC25C2FD390056EE86 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E21D64525C651190056EE86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E21D64C25C651190056EE86 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2162,6 +2222,24 @@
 			name = Debug;
 		};
 		5E21D5FE25C2FD390056EE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E21D64D25C651190056EE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E21D64E25C651190056EE86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2935,6 +3013,15 @@
 			buildConfigurations = (
 				5E21D5FD25C2FD390056EE86 /* Debug */,
 				5E21D5FE25C2FD390056EE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E21D64F25C651190056EE86 /* Build configuration list for PBXNativeTarget "10141 - Request for Proposal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E21D64D25C651190056EE86 /* Debug */,
+				5E21D64E25C651190056EE86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
