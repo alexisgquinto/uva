@@ -6,10 +6,15 @@
          contextName = "main:main.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "proposal.getCompliance(n);">
+               value = "(int) binaryStr[index]">
             </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "processName(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;):main.cpp">
+         <PersistentStrings>
             <PersistentString
-               value = "bestProposal.getCompliance(n)">
+               value = "a.length()">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
