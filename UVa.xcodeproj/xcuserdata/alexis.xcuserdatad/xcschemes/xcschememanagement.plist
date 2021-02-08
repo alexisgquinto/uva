@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>10919 - Prerequisites.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>37</integer>
+		</dict>
 		<key>10963 - The Swallowing Ground.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -68,6 +73,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>7</integer>
+		</dict>
+		<key>11507 - Bender B Rodriquez Problem.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>38</integer>
 		</dict>
 		<key>11547 - Automatic Answer.xcscheme_^#shared#^_</key>
 		<dict>
@@ -197,6 +207,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>5E178B5025CC041900456791</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>5E21D5F825C2FD390056EE86</key>
 		<dict>
 			<key>primary</key>
@@ -233,6 +248,16 @@
 			<true/>
 		</dict>
 		<key>5E90FA3A2513AC90005C5E46</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5E9A42C325CE28A9005880FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5E9A42F525CE2922005880FD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
