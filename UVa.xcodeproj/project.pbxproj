@@ -39,6 +39,7 @@
 		5ECD190B253288CF0012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD190A253288CF0012276C /* main.cpp */; };
 		5ED1F38B25BF3C4B0038BD30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ED1F38A25BF3C4B0038BD30 /* main.cpp */; };
 		5ED392D525D936EC00B549CD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ED392D425D936EC00B549CD /* main.cpp */; };
+		5ED3935F25D95D6800B549CD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3935E25D95D6800B549CD /* main.cpp */; };
 		5EEA8FEA2514693600922DD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA8FE92514693600922DD0 /* main.cpp */; };
 		5EEA90112514BAB500922DD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA90102514BAB500922DD0 /* main.cpp */; };
 		5EEA903B2514C23400922DD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA903A2514C23400922DD0 /* main.cpp */; };
@@ -348,6 +349,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		5ED3935A25D95D6800B549CD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		5EEA8FE52514693600922DD0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -531,6 +541,9 @@
 		5ED392D225D936EC00B549CD /* 11661 - Burger Time */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11661 - Burger Time"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED392D425D936EC00B549CD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5ED3932D25D9372600B549CD /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		5ED3935C25D95D6800B549CD /* 11683 - Laser Sculpture */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11683 - Laser Sculpture"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED3935E25D95D6800B549CD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5ED393B925D95D9200B549CD /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		5EEA8FE72514693600922DD0 /* 11498 - Division of Nlogonia */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11498 - Division of Nlogonia"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EEA8FE92514693600922DD0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5EEA90002514696F00922DD0 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
@@ -792,6 +805,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5ED3935925D95D6800B549CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5EEA8FE42514693600922DD0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -992,6 +1012,7 @@
 				5E9A42F725CE2922005880FD /* 11507 - Bender B Rodriquez Problem */,
 				5EB38E7825D6E92F00BDE77D /* 11586 - Train Tracks */,
 				5ED392D325D936EC00B549CD /* 11661 - Burger Time */,
+				5ED3935D25D95D6800B549CD /* 11683 - Laser Sculpture */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -1058,6 +1079,7 @@
 				5E9A42F625CE2922005880FD /* 11507 - Bender B Rodriquez Problem */,
 				5EB38E7725D6E92F00BDE77D /* 11586 - Train Tracks */,
 				5ED392D225D936EC00B549CD /* 11661 - Burger Time */,
+				5ED3935C25D95D6800B549CD /* 11683 - Laser Sculpture */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1283,6 +1305,15 @@
 				5ED3932D25D9372600B549CD /* input.txt */,
 			);
 			path = "11661 - Burger Time";
+			sourceTree = "<group>";
+		};
+		5ED3935D25D95D6800B549CD /* 11683 - Laser Sculpture */ = {
+			isa = PBXGroup;
+			children = (
+				5ED3935E25D95D6800B549CD /* main.cpp */,
+				5ED393B925D95D9200B549CD /* input.txt */,
+			);
+			path = "11683 - Laser Sculpture";
 			sourceTree = "<group>";
 		};
 		5EEA8FE82514693600922DD0 /* 11498 - Division of Nlogonia */ = {
@@ -1930,6 +1961,23 @@
 			productReference = 5ED392D225D936EC00B549CD /* 11661 - Burger Time */;
 			productType = "com.apple.product-type.tool";
 		};
+		5ED3935B25D95D6800B549CD /* 11683 - Laser Sculpture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ED3936025D95D6800B549CD /* Build configuration list for PBXNativeTarget "11683 - Laser Sculpture" */;
+			buildPhases = (
+				5ED3935825D95D6800B549CD /* Sources */,
+				5ED3935925D95D6800B549CD /* Frameworks */,
+				5ED3935A25D95D6800B549CD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "11683 - Laser Sculpture";
+			productName = "11683 - Laser Sculpture";
+			productReference = 5ED3935C25D95D6800B549CD /* 11683 - Laser Sculpture */;
+			productType = "com.apple.product-type.tool";
+		};
 		5EEA8FE62514693600922DD0 /* 11498 - Division of Nlogonia */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EEA8FED2514693600922DD0 /* Build configuration list for PBXNativeTarget "11498 - Division of Nlogonia" */;
@@ -2191,6 +2239,9 @@
 					5ED392D125D936EC00B549CD = {
 						CreatedOnToolsVersion = 12.4;
 					};
+					5ED3935B25D95D6800B549CD = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					5EEA8FE62514693600922DD0 = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -2275,6 +2326,7 @@
 				5E9A42F525CE2922005880FD /* 11507 - Bender B Rodriquez Problem */,
 				5EB38E7625D6E92F00BDE77D /* 11586 - Train Tracks */,
 				5ED392D125D936EC00B549CD /* 11661 - Burger Time */,
+				5ED3935B25D95D6800B549CD /* 11683 - Laser Sculpture */,
 			);
 		};
 /* End PBXProject section */
@@ -2540,6 +2592,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ED392D525D936EC00B549CD /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED3935825D95D6800B549CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED3935F25D95D6800B549CD /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3357,6 +3417,24 @@
 			};
 			name = Release;
 		};
+		5ED3936125D95D6800B549CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5ED3936225D95D6800B549CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		5EEA8FEB2514693600922DD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3842,6 +3920,15 @@
 			buildConfigurations = (
 				5ED392D625D936EC00B549CD /* Debug */,
 				5ED392D725D936EC00B549CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ED3936025D95D6800B549CD /* Build configuration list for PBXNativeTarget "11683 - Laser Sculpture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED3936125D95D6800B549CD /* Debug */,
+				5ED3936225D95D6800B549CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

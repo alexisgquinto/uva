@@ -104,6 +104,11 @@
 			<key>orderHint</key>
 			<integer>22</integer>
 		</dict>
+		<key>11683 - Laser Sculpture.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>41</integer>
+		</dict>
 		<key>11727 - Cost Cutting.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -383,6 +388,11 @@
 			<true/>
 		</dict>
 		<key>5ED392D125D936EC00B549CD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5ED3935B25D95D6800B549CD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
