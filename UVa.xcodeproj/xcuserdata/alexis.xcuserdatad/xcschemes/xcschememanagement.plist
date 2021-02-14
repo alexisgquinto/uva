@@ -94,6 +94,11 @@
 			<key>orderHint</key>
 			<integer>39</integer>
 		</dict>
+		<key>11661 - Burger Time.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>40</integer>
+		</dict>
 		<key>11679 - Sub-prime.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -373,6 +378,11 @@
 			<true/>
 		</dict>
 		<key>5ED1F38725BF3C4B0038BD30</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5ED392D125D936EC00B549CD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
