@@ -89,6 +89,11 @@
 			<key>orderHint</key>
 			<integer>21</integer>
 		</dict>
+		<key>11586 - Train Tracks.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>39</integer>
+		</dict>
 		<key>11679 - Sub-prime.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -303,6 +308,11 @@
 			<true/>
 		</dict>
 		<key>5EAC674F2513A3F900936CF4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5EB38E7625D6E92F00BDE77D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -25,6 +25,7 @@
 		5EAC672F250E8A1200936CF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC672E250E8A1200936CF4 /* main.cpp */; };
 		5EAC673B2510F54E00936CF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC673A2510F54E00936CF4 /* main.cpp */; };
 		5EAC6747251103CD00936CF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC6746251103CD00936CF4 /* main.cpp */; };
+		5EB38E7A25D6E92F00BDE77D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EB38E7925D6E92F00BDE77D /* main.cpp */; };
 		5ECD15EE2520C9CF0012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD15ED2520C9CF0012276C /* main.cpp */; };
 		5ECD16332520D8BA0012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD16322520D8BA0012276C /* main.cpp */; };
 		5ECD167B2521BFB40012276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD167A2521BFB40012276C /* main.cpp */; };
@@ -212,6 +213,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		5EAC6742251103CD00936CF4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5EB38E7525D6E92F00BDE77D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -469,6 +479,9 @@
 		5EAC6744251103CD00936CF4 /* 11172 - Relational Operator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11172 - Relational Operator"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAC6746251103CD00936CF4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5EAC674B2511042200936CF4 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		5EB38E7725D6E92F00BDE77D /* 11586 - Train Tracks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11586 - Train Tracks"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB38E7925D6E92F00BDE77D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5EB38EA725D6E95A00BDE77D /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		5ECD15EB2520C9CF0012276C /* 10300 - Ecological Premium */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10300 - Ecological Premium"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ECD15ED2520C9CF0012276C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5ECD16182520C9FB0012276C /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
@@ -662,6 +675,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5EAC6741251103CD00936CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB38E7425D6E92F00BDE77D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -950,6 +970,7 @@
 				5E21D71425C84AB90056EE86 /* 10424 - Love calculator */,
 				5E178B5225CC041900456791 /* 10919 - Prerequisites */,
 				5E9A42F725CE2922005880FD /* 11507 - Bender B Rodriquez Problem */,
+				5EB38E7825D6E92F00BDE77D /* 11586 - Train Tracks */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -1014,6 +1035,7 @@
 				5E178B5125CC041900456791 /* 10919 - Prerequisites */,
 				5E9A42C425CE28A9005880FD /* 11507 - Bender */,
 				5E9A42F625CE2922005880FD /* 11507 - Bender B Rodriquez Problem */,
+				5EB38E7725D6E92F00BDE77D /* 11586 - Train Tracks */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1113,6 +1135,15 @@
 				5EAC674B2511042200936CF4 /* input.txt */,
 			);
 			path = "11172 - Relational Operator";
+			sourceTree = "<group>";
+		};
+		5EB38E7825D6E92F00BDE77D /* 11586 - Train Tracks */ = {
+			isa = PBXGroup;
+			children = (
+				5EB38E7925D6E92F00BDE77D /* main.cpp */,
+				5EB38EA725D6E95A00BDE77D /* input.txt */,
+			);
+			path = "11586 - Train Tracks";
 			sourceTree = "<group>";
 		};
 		5ECD15EC2520C9CF0012276C /* 10300 - Ecological Premium */ = {
@@ -1630,6 +1661,23 @@
 			productReference = 5EAC6744251103CD00936CF4 /* 11172 - Relational Operator */;
 			productType = "com.apple.product-type.tool";
 		};
+		5EB38E7625D6E92F00BDE77D /* 11586 - Train Tracks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB38E7D25D6E92F00BDE77D /* Build configuration list for PBXNativeTarget "11586 - Train Tracks" */;
+			buildPhases = (
+				5EB38E7325D6E92F00BDE77D /* Sources */,
+				5EB38E7425D6E92F00BDE77D /* Frameworks */,
+				5EB38E7525D6E92F00BDE77D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "11586 - Train Tracks";
+			productName = "11586 - Train Tracks";
+			productReference = 5EB38E7725D6E92F00BDE77D /* 11586 - Train Tracks */;
+			productType = "com.apple.product-type.tool";
+		};
 		5ECD15EA2520C9CF0012276C /* 10300 - Ecological Premium */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5ECD15F12520C9CF0012276C /* Build configuration list for PBXNativeTarget "10300 - Ecological Premium" */;
@@ -2053,6 +2101,9 @@
 					5EAC6743251103CD00936CF4 = {
 						CreatedOnToolsVersion = 11.7;
 					};
+					5EB38E7625D6E92F00BDE77D = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					5ECD15EA2520C9CF0012276C = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
@@ -2171,6 +2222,7 @@
 				5E178B5025CC041900456791 /* 10919 - Prerequisites */,
 				5E9A42C325CE28A9005880FD /* 11507 - Bender */,
 				5E9A42F525CE2922005880FD /* 11507 - Bender B Rodriquez Problem */,
+				5EB38E7625D6E92F00BDE77D /* 11586 - Train Tracks */,
 			);
 		};
 /* End PBXProject section */
@@ -2324,6 +2376,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EAC6747251103CD00936CF4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB38E7325D6E92F00BDE77D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB38E7A25D6E92F00BDE77D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2963,6 +3023,24 @@
 			};
 			name = Release;
 		};
+		5EB38E7B25D6E92F00BDE77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5EB38E7C25D6E92F00BDE77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		5ECD15EF2520C9CF0012276C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3560,6 +3638,15 @@
 			buildConfigurations = (
 				5EAC6749251103CD00936CF4 /* Debug */,
 				5EAC674A251103CD00936CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB38E7D25D6E92F00BDE77D /* Build configuration list for PBXNativeTarget "11586 - Train Tracks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB38E7B25D6E92F00BDE77D /* Debug */,
+				5EB38E7C25D6E92F00BDE77D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
