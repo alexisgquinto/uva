@@ -109,6 +109,11 @@
 			<key>orderHint</key>
 			<integer>41</integer>
 		</dict>
+		<key>11687 - Digits.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>42</integer>
+		</dict>
 		<key>11727 - Cost Cutting.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -223,6 +228,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>5E178B5025CC041900456791</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5E1C354825E01E1700D33F65</key>
 		<dict>
 			<key>primary</key>
 			<true/>
