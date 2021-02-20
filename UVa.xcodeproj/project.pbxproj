@@ -50,6 +50,7 @@
 		5EEA91012516FE7500922DD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA91002516FE7500922DD0 /* main.cpp */; };
 		5EEA913A251701B800922DD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA9139251701B800922DD0 /* main.cpp */; };
 		5EEA91762517079500922DD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA91752517079500922DD0 /* main.cpp */; };
+		5EFAF4E125E14FAD00FAAEE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EFAF4E025E14FAD00FAAEE7 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -449,6 +450,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		5EFAF4DC25E14FAD00FAAEE7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -584,6 +594,9 @@
 		5EEA91732517079500922DD0 /* 12577 - Hajj-e-Akbar */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12577 - Hajj-e-Akbar"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EEA91752517079500922DD0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5EEA919C251707BE00922DD0 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		5EFAF4DE25E14FAD00FAAEE7 /* 1195 - Brainfuck */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1195 - Brainfuck"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EFAF4E025E14FAD00FAAEE7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5EFAF51225E14FD700FAAEE7 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -895,6 +908,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5EFAF4DB25E14FAD00FAAEE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1043,6 +1063,7 @@
 				5ED392D325D936EC00B549CD /* 11661 - Burger Time */,
 				5ED3935D25D95D6800B549CD /* 11683 - Laser Sculpture */,
 				5E1C354A25E01E1700D33F65 /* 11687 - Digits */,
+				5EFAF4DF25E14FAD00FAAEE7 /* 11956 - Brainfuck */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -1111,6 +1132,7 @@
 				5ED392D225D936EC00B549CD /* 11661 - Burger Time */,
 				5ED3935C25D95D6800B549CD /* 11683 - Laser Sculpture */,
 				5E1C354925E01E1700D33F65 /* 11687 - Digits */,
+				5EFAF4DE25E14FAD00FAAEE7 /* 1195 - Brainfuck */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1426,6 +1448,15 @@
 				5EEA919C251707BE00922DD0 /* input.txt */,
 			);
 			path = "12577 - Hajj-e-Akbar";
+			sourceTree = "<group>";
+		};
+		5EFAF4DF25E14FAD00FAAEE7 /* 11956 - Brainfuck */ = {
+			isa = PBXGroup;
+			children = (
+				5EFAF4E025E14FAD00FAAEE7 /* main.cpp */,
+				5EFAF51225E14FD700FAAEE7 /* input.txt */,
+			);
+			path = "11956 - Brainfuck";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2179,6 +2210,23 @@
 			productReference = 5EEA91732517079500922DD0 /* 12577 - Hajj-e-Akbar */;
 			productType = "com.apple.product-type.tool";
 		};
+		5EFAF4DD25E14FAD00FAAEE7 /* 1195 - Brainfuck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EFAF4E425E14FAD00FAAEE7 /* Build configuration list for PBXNativeTarget "1195 - Brainfuck" */;
+			buildPhases = (
+				5EFAF4DA25E14FAD00FAAEE7 /* Sources */,
+				5EFAF4DB25E14FAD00FAAEE7 /* Frameworks */,
+				5EFAF4DC25E14FAD00FAAEE7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1195 - Brainfuck";
+			productName = "1195 - Brainfuck";
+			productReference = 5EFAF4DE25E14FAD00FAAEE7 /* 1195 - Brainfuck */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2320,6 +2368,9 @@
 					5EEA91722517079500922DD0 = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					5EFAF4DD25E14FAD00FAAEE7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 				};
 			};
 			buildConfigurationList = 5EAC66F0250E275900936CF4 /* Build configuration list for PBXProject "UVa" */;
@@ -2379,6 +2430,7 @@
 				5ED392D125D936EC00B549CD /* 11661 - Burger Time */,
 				5ED3935B25D95D6800B549CD /* 11683 - Laser Sculpture */,
 				5E1C354825E01E1700D33F65 /* 11687 - Digits */,
+				5EFAF4DD25E14FAD00FAAEE7 /* 1195 - Brainfuck */,
 			);
 		};
 /* End PBXProject section */
@@ -2732,6 +2784,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EEA91762517079500922DD0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EFAF4DA25E14FAD00FAAEE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFAF4E125E14FAD00FAAEE7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3693,6 +3753,24 @@
 			};
 			name = Release;
 		};
+		5EFAF4E225E14FAD00FAAEE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5EFAF4E325E14FAD00FAAEE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -4097,6 +4175,15 @@
 			buildConfigurations = (
 				5EEA91782517079500922DD0 /* Debug */,
 				5EEA91792517079500922DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EFAF4E425E14FAD00FAAEE7 /* Build configuration list for PBXNativeTarget "1195 - Brainfuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFAF4E225E14FAD00FAAEE7 /* Debug */,
+				5EFAF4E325E14FAD00FAAEE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

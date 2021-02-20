@@ -139,6 +139,11 @@
 			<key>orderHint</key>
 			<integer>25</integer>
 		</dict>
+		<key>11956 - Brainfuck.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>44</integer>
+		</dict>
 		<key>12015 - Google is Feeling Lucky.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -448,6 +453,11 @@
 			<true/>
 		</dict>
 		<key>5EEA91722517079500922DD0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5EFAF4DD25E14FAD00FAAEE7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
