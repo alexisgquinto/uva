@@ -142,7 +142,7 @@
 		<key>11956 - Brainfuck.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>44</integer>
+			<integer>43</integer>
 		</dict>
 		<key>12015 - Google is Feeling Lucky.xcscheme_^#shared#^_</key>
 		<dict>
@@ -183,6 +183,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>28</integer>
+		</dict>
+		<key>12478 - Hardest Problem Ever (Easy).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>44</integer>
 		</dict>
 		<key>12503 - Robot Instructions.xcscheme_^#shared#^_</key>
 		<dict>
@@ -458,6 +463,11 @@
 			<true/>
 		</dict>
 		<key>5EFAF4DD25E14FAD00FAAEE7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5EFAF57025E1E8C300FAAEE7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
